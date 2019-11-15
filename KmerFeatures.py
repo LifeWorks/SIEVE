@@ -49,7 +49,7 @@ OPTION_LIST = ["A program to generate features and run SIEVE models on input seq
                  "Randomize alphabet used - but using the same number of categories and distribution as specificed by the map_function"),
                 (None, "R", "min_rep_thresh",
                  "float", 1, None, None,
-                 "minimum number of sequences to include feature for prefiltering. 0>R<1 is percentage of input sequences"),
+                 "minimum number of sequences to include feature for prefiltering. 0<R<1 is percentage of input sequences"),
                 (None, "e", "example_indexfile",
                  "str", None, None, None,
                  "File containing identifiers of positive examples for sieve output records or gist .class files"),
@@ -227,7 +227,8 @@ def string_vectorize(residues=None, sequence=None, kmer=3, start=None, end=None,
         if tstart < 0:
             tstart = 0
 
-    tend = end or len(sequence)-kmer
+    #tend = end or len(sequence)-kmer
+    tend = end or len(sequence)-kmer + 1 # tend should plus 1 otherwise the last kmer will be omitted
 
     results = {}
     if feature_dict:
@@ -397,6 +398,7 @@ def baseconvert(n, k=None, digits=None, **kw):
 
     return s
 
+### there seems no return function ???
 def kmer_walk(fastafile=None, maxk=20, seq_dump=False, **kw):
     # next read in sequences from the fasta file
     sequence_list = []
@@ -423,6 +425,8 @@ def kmer_walk(fastafile=None, maxk=20, seq_dump=False, **kw):
             sequence = sequence_list[i]
             id = ids_list[i]
 
+            ### Doesn't this only get the feature dict of the last sequence from the sequence list?
+
             feature_dict = string_vectorize(sequence=sequence, kmer=kmer, map_function="reduced_alphabet_0", feature_dict=feature_dict,
                                              exclusion_list=exclusion_list, return_dict=True)
 
@@ -444,6 +448,7 @@ def define_feature_space(sequence_dict=None, kmer=None, map_function=None, start
     feature_dict = {}
     
     for id, seq in sequence_dict.items():
+        ### Doesn't this only get the feature dict of the last sequence from the sequence_dict items?
         feature_dict = string_vectorize(sequence=seq, kmer=kmer, map_function=map_function, feature_dict=feature_dict,
                                          start=start, end=end, residues=residues, return_dict=True)
 

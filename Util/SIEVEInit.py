@@ -27,7 +27,7 @@ ALPHABETS = {
     "reduced_alphabet_3":{"SFTNYQCWPH":"L", # hydrophilic (L-ove)
                           "VMLAIG":"H",     # hydrophobic (H-ate)
                           "KNDR":"C",       # charged (C-harged)
-                          "_keys":"SV"},
+                          "_keys":"LHC"},
     # 2-value hydrophobicity with structural-breakers as a third category
     #  Made by me
     "reduced_alphabet_4":{"SFTNKYEQCWHDR":"L",

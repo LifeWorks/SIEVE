@@ -8,7 +8,8 @@ output: html_document
 Rmarkdown to demonstrate use of SIEVE-Ub models for prediction of E3 ubiquitin ligase mimics from protein sequences. These blocks recreate much of the analysis from the PeerJ preprint at (https://peerj.com/preprints/27292/)
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+#knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 
 # as per reviewer #2 request - setting the random seed here such that code executes consistently below
 # Note: we examine the effect of different random seeds on the stability of main result below, which
@@ -167,7 +168,7 @@ dev.off()
 # of top features
 k14topmodels_results = sapply(2:50, function (i) list(kmer_run("dummy", ubex_fact, ubex_families, ntimes=1, data=ubex_k14red0[,names(sort(ubex_red0_counts[[12]][,5], decreasing=T))[1:i]])))
 
-plot(2:50, k14topmodels, type="l", xlab="Top N features", ylab="AUC")
+plot(2:50, k14topmodels_results, type="l", xlab="Top N features", ylab="AUC")
 
 # choosing 10 as a reasonable number of features that gives a good predictive ability
 # This is the minimal model
@@ -252,10 +253,10 @@ cbind(sapply(1:length(model.cv.rfe), function (i) model.cv.rfe[[i]]$auc), sapply
 
 # this model has the best performance at 0.9044 - it has a large number of features, but that's OK
 best_model_features = model.cv.rfe[[6]]$features[1:1172]
-write.table(best_model_features, file="data/best_model_1280features.txt", sep="\t", quote=F)
+write.table(best_model_features, file="data/best_model_1280features_test.txt", sep="\t", quote=F)
 
 sieveub_best_model = svm(x=ubex_k14red0[names(ubex_fact),best_model_features], ubex_fact, probability=T)
-save(sieveub_best_model, file="data/SIEVEUb_best_model.Rdata")
+save(sieveub_best_model, file="data/SIEVEUb_best_model_test.Rdata")
 ```
 
 

@@ -84,7 +84,7 @@ family_bootstrap_svm <- function(data, factor, family, training_division=0.5, ni
 	colnames(prob) = c(1:niter, "mean")
 	models = list()
 	
-	cat("Running Family-wise bootstrap SVM ", niter, " times\n")
+	#cat("Running Family-wise bootstrap SVM ", niter, " times\n")
 	
 	families = unique(sort(family))
 
@@ -139,7 +139,7 @@ family_bootstrap_svm <- function(data, factor, family, training_division=0.5, ni
 		
 		prob[testing,i] = attr(thesepredictions, "probabilities")[testing,1]
 		
-		cat(".")
+		#cat(".")
 		
 		res = c(res, class_auc)
 	}
@@ -217,7 +217,7 @@ svmrfeFeatureRanking = function(x,y, stepamount=0.5) {
     #survivingFeaturesIndexes = survivingFeaturesIndexes[-removal]
     #rankedFeatureIndex = rankedFeatureIndex-length(removal)
     
-    cat("Remaining features: ", length(featureRankedList), "\n")
+    #cat("Remaining features: ", length(featureRankedList), "\n")
     #browser()
     
     results[[i]] = list(nfeatures=step_length, auc=step_auc, features=featureRankedList, weights=scoresRankedList)
@@ -235,7 +235,7 @@ svmrfeCrossFeatureRanking = function(x, y, family, stepamount=0.5, training_divi
   scoresRankedList = vector(length=n) 
   rankedFeatureIndex = n
   
-  cat("Starting features: ", length(survivingFeaturesIndexes))
+  #cat("Starting features: ", length(survivingFeaturesIndexes))
   
   results = list()
   i = 0 
@@ -264,7 +264,7 @@ svmrfeCrossFeatureRanking = function(x, y, family, stepamount=0.5, training_divi
       
       # now assign
       weights[iter,these_features] = rep(svm_cross$auc, length(these_features))
-      cat(".")
+      #cat(".")
     }
     
     # trim the weights to only those features still in consideration
@@ -289,7 +289,7 @@ svmrfeCrossFeatureRanking = function(x, y, family, stepamount=0.5, training_divi
     # we are using "keeping" to grab the actual labels from the original list of features
     keeping = survivingFeaturesIndexes[ranking$ix[dividing_point:length(survivingFeaturesIndexes)]]
    
-    cat("\nRemaining features: ", length(survivingFeaturesIndexes), " AUC: ", step_auc)
+    #cat("\nRemaining features: ", length(survivingFeaturesIndexes), " AUC: ", step_auc)
     
     
     # scores are from all remaining features

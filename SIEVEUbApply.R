@@ -14,7 +14,7 @@ main = function(feature_table_fname) {
   # read in the best model for ubiquitin ligase prediction from the paper
   load("data/SIEVEUb_best_model.Rdata")
   
-  cat("Header...\n")
+  #cat("Header...\n")
   
   #get the input feature file
   these_features = read.table(feature_table_fname, sep="\t", row.names=1, header=1, stringsAsFactors=F)
@@ -25,7 +25,7 @@ main = function(feature_table_fname) {
   predictions = predictions[order(predictions[,1]),]
   
   # output predictions as text
-  cat("#id\tnegative prob\tpositive prob\n")
+  #cat("#id\tnegative prob\tpositive prob\n")
   for (i in 1:nrow(results$predictions)) {
     cat(rownames(predictions)[i], predictions[i,1], predictions[i,2], "\n", sep="\t")
   }

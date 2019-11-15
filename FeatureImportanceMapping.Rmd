@@ -30,7 +30,7 @@ source("SIEVEUb.R")
   ubex_families = ubex_classes[,1]
   names(ubex_families) = rownames(ubex_classes)
   
-    # this is a matrix of features from examples
+  # this is a matrix of features from examples
   ubex_k14red0 = read.table("data/red0/ubligase_k14.red0.train", sep="\t", row.names=1, header=1, stringsAsFactors=F)
 
   
