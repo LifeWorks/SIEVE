@@ -102,7 +102,7 @@ if not os.path.exists(faDir):
 os.chdir("".join(args.i))
 # files = []
 for filepath in os.listdir(os.getcwd()):
-    if filepath.endswith(".fasta"):
+    if filepath.endswith(".fasta") or filepath.endswith(".fa"):
         # files.append(filepath)
         splitFa(filepath, faDir)
 # sorted_files = sorted(files, key=os.path.getsize, reverse=True)
