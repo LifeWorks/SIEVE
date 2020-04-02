@@ -1,4 +1,4 @@
-# Usage: python3 multiple_fasta.py -i Fastas/ --cpu 4 --parallel 2
+# Usage: python3 SecondaryStructures.py -i Fastas/ --cpu 4 --parallel 2
 # (run 2 parallel instances of Porter5 on 4 cores - total of 8 cores)
 
 import os
@@ -49,10 +49,13 @@ def loop(line):
     fasta = open(line, "r").readlines()
     for s in (".ss3", ".ss8"):
         filename = line + s
-        ss = "".join(pd.read_csv(filename, index_col=0, sep='\t')
-                     ["SS"].to_list())
-        with open(line[:-6] + s + line[-6:], 'w') as f:
-            f.write(fasta[0].strip() + '\n' + ss)
+        if os.path.isfile(filename):
+            ss = "".join(pd.read_csv(filename, index_col=0, sep='\t')
+                         ["SS"].to_list())
+            with open(line[:-6] + s + line[-6:], 'w') as f:
+                f.write(fasta[0].strip() + '\n' + ss)
+        else:
+            print(filename + " dose not exist! Check the problem")
 
 
 # set argparse
