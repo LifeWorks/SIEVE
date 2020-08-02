@@ -119,6 +119,11 @@ for filepath in os.listdir(os.getcwd()):
     if filepath.endswith(".fasta"):
         files.append(filepath)
 sorted_files = sorted(files, key=os.path.getsize, reverse=True)
-with Pool(args.parallel) as p:
-    p.map(loop, sorted_files, 1)
+
+if args.parallel > 1:
+    with Pool(args.parallel) as p:
+        p.map(loop, sorted_files, 1)
+else:
+    loop(sorted_files)
+
 # print(os.getcwd())
