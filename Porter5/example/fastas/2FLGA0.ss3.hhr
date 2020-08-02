@@ -1,0 +1,478 @@
+Query         2FLGA
+Match_columns 48
+No_of_seqs    1 out of 2
+Neff          1
+Searched_HMMs 100
+Date          Thu Apr  2 02:47:39 2020
+Command       hhblits -d /Users/feng626/workspace/data/uniprot20_2016_02/uniprot20_2016_02 -i 2FLGA0.ss3.fasta -opsi 2FLGA0.ss3.fasta.psi -cpu 1 -n 3 -maxfilt 150000 -maxmem 27 -v 2 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 tr|U6MT07|U6MT07_9EIME Unchara  96.0 0.00098 4.4E-09   46.6   0.0   23    1-24     80-102 (112)
+  2 tr|U6MZ25|U6MZ25_9EIME Unchara  94.8   0.012 5.3E-08   49.4   0.0   14   11-24    582-595 (596)
+  3 tr|U6MEP7|U6MEP7_9EIME Unchara  94.7   0.013 5.7E-08   30.5   0.0    7    9-15      7-13  (17)
+  4 tr|Q59Y47|Q59Y47_CANAL Unchara  94.4   0.021 9.2E-08   41.3   0.0   13    9-21     97-109 (133)
+  5 tr|A0A0N5AL96|A0A0N5AL96_9BILA  94.4   0.021 9.2E-08   37.0   0.0   13    1-13      5-17  (60)
+  6 tr|U6N1I8|U6N1I8_9EIME Unchara  94.3   0.024 1.1E-07   46.1   0.0   21    5-25    360-381 (396)
+  7 tr|T1E9M4|T1E9M4_ANOAQ Putativ  93.7   0.041 1.8E-07   37.1   0.0   17    2-18      7-23  (77)
+  8 tr|U6MSM7|U6MSM7_9EIME Unchara  93.6   0.045   2E-07   42.1   0.0    8   14-21    205-212 (219)
+  9 tr|A0A0L8H5W0|A0A0L8H5W0_OCTBM  93.5   0.053 2.4E-07   42.5   0.0   10    9-18    113-122 (259)
+ 10 tr|U6ML81|U6ML81_9EIME DNA rep  93.0   0.079 3.5E-07   41.3   0.0   16    9-24    111-126 (245)
+ 11 tr|M2YXJ5|M2YXJ5_PSEFD Unchara  92.9   0.083 3.7E-07   37.3   0.0   13    6-18     73-85  (106)
+ 12 tr|U6MVW0|U6MVW0_9EIME Unchara  91.9    0.15 6.8E-07   41.2   0.0   14    9-22    264-277 (337)
+ 13 tr|U6MQ24|U6MQ24_9EIME Unchara  91.6    0.18 8.1E-07   41.2   0.0    6    2-7     278-283 (374)
+ 14 tr|W5GPE8|W5GPE8_WHEAT Unchara  91.5    0.19 8.5E-07   33.3   0.0    8   12-19     56-63  (66)
+ 15 tr|U6N487|U6N487_9EIME Unchara  91.4     0.2   9E-07   40.8   0.0   21    6-26    210-230 (351)
+ 16 tr|U6MFA9|U6MFA9_9EIME Prolife  90.6    0.29 1.3E-06   40.8   0.0    7    4-10     46-52  (433)
+ 17 tr|A0A0C3AYG9|A0A0C3AYG9_9HOMO  89.9    0.39 1.7E-06   35.4   0.0   17    8-24      5-21  (137)
+ 18 tr|U6N621|U6N621_9EIME Unchara  89.2    0.49 2.2E-06   40.8   0.0    9    4-12    498-506 (614)
+ 19 tr|Q6IL67|Q6IL67_DROME HDC1024  88.7    0.58 2.6E-06   34.9   0.0   16   10-25    124-139 (150)
+ 20 tr|A0A0K0D7U2|A0A0K0D7U2_ANGCA  88.5    0.61 2.7E-06   33.7   0.0   16    4-19     62-77  (117)
+ 21 tr|U6MDH4|U6MDH4_9EIME Unchara  88.2    0.66 2.9E-06   37.3   0.0    9   10-18     53-61  (287)
+ 22 tr|U6N2D0|U6N2D0_9EIME Unchara  88.2    0.67   3E-06   36.5   0.0   10   30-39    202-211 (238)
+ 23 tr|H3FES6|H3FES6_PRIPA Unchara  85.4     1.3 5.8E-06   35.2   0.0   23    3-25     66-88  (244)
+ 24 tr|A8Q021|A8Q021_BRUMA Putativ  85.2     1.4 6.1E-06   32.3   0.0   12    5-16     75-86  (124)
+ 25 tr|U6KQE6|U6KQE6_EIMTE Unchara  84.2     1.6 7.3E-06   30.9   0.0   10    8-17     55-64  (97)
+ 26 tr|U6MG45|U6MG45_9EIME Unchara  84.2     1.7 7.4E-06   34.4   0.0   15    5-19    147-161 (229)
+ 27 tr|U6MJU1|U6MJU1_9EIME Unchara  75.2     5.6 2.5E-05   32.8   0.0   19    6-24     17-35  (313)
+ 28 tr|A0A0B8NCT9|A0A0B8NCT9_9NOCA  68.5      10 4.6E-05   29.3   0.0   10   17-26    146-155 (168)
+ 29 tr|U6MKN0|U6MKN0_9EIME Unchara  67.4      11   5E-05   32.7   0.0   11    9-19    366-376 (486)
+ 30 tr|T1E2D7|T1E2D7_9DIPT Putativ  61.2      18   8E-05   26.5   0.0   15    4-18     15-29  (106)
+ 31 tr|U6N621|U6N621_9EIME Unchara  44.0      53 0.00023   29.7   0.0    8    9-16    447-454 (614)
+ 32 tr|U6N376|U6N376_9EIME Unchara  37.3      79 0.00035   27.0   0.0    6   20-25     51-56  (329)
+ 33 tr|U6MNI5|U6MNI5_9EIME Unchara  34.8      92 0.00041   27.0   0.0   14   13-26    337-350 (361)
+ 34 tr|A0A0C1U6V8|A0A0C1U6V8_9CLOT  28.2 1.4E+02 0.00062   24.1   0.0   22    5-26     78-100 (184)
+ 35 tr|U6MM58|U6MM58_9EIME Unchara  27.5 1.5E+02 0.00065   27.2   0.0   12    8-19    310-321 (579)
+ 36 tr|T1DKE6|T1DKE6_ANOAQ Putativ  24.8 1.8E+02 0.00078   21.2   0.0   11   10-20      9-19  (85)
+
+No 1
+>tr|U6MT07|U6MT07_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00031100 PE=4 SV=1
+Probab=95.99  E-value=0.00098  Score=46.56  Aligned_cols=23  Identities=78%  Similarity=2.931  Sum_probs=14.0  Template_Neff=1.000
+
+Q 2FLGA             1 CCCCCCEECCCCCCCCCCEEECCC   24 (48)
+Q Consensus         1 cccccceecccccccccceeeccc   24 (48)
+                      |++|||+.||||||| ||+.-|++
+T Consensus        80 ccccccgsccccccc-ccgscccc  102 (112)
+T tr|U6MT07|U6MT   80 CCCCCCGSCCCCCCC-CCGSCCCC  102 (112)
+Confidence            467788888766544 45544443
+
+
+No 2
+>tr|U6MZ25|U6MZ25_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00050270 PE=4 SV=1
+Probab=94.78  E-value=0.012  Score=49.44  Aligned_cols=14  Identities=79%  Similarity=2.893  Sum_probs=6.9  Template_Neff=1.000
+
+Q 2FLGA            11 CCCCCCCCEEECCC   24 (48)
+Q Consensus        11 cccccccceeeccc   24 (48)
+                      ||||||||+-.|||
+T Consensus       582 ccccccccgwrccc  595 (596)
+T tr|U6MZ25|U6MZ  582 CCCCCCCCGWRCCC  595 (596)
+Confidence            34444555555544
+
+
+No 3
+>tr|U6MEP7|U6MEP7_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00023680 PE=4 SV=1
+Probab=94.73  E-value=0.013  Score=30.48  Aligned_cols=7  Identities=100%  Similarity=3.822  Sum_probs=2.6  Template_Neff=1.000
+
+Q 2FLGA             9 CCCCCCC   15 (48)
+Q Consensus         9 ccccccc   15 (48)
+                      |||||||
+T Consensus         7 ccccccc   13 (17)
+T tr|U6MEP7|U6ME    7 CCCCCCC   13 (17)
+Confidence            3333333
+
+
+No 4
+>tr|Q59Y47|Q59Y47_CANAL Uncharacterized protein OS=Candida albicans (strain SC5314 / ATCC MYA-2876) GN=CaO19.11085 PE=4 SV=1
+Probab=94.38  E-value=0.021  Score=41.30  Aligned_cols=13  Identities=77%  Similarity=2.949  Sum_probs=5.7  Template_Neff=1.000
+
+Q 2FLGA             9 CCCCCCCCCCEEE   21 (48)
+Q Consensus         9 cccccccccceee   21 (48)
+                      ||||||||||..-
+T Consensus        97 ccccccccccrdl  109 (133)
+T tr|Q59Y47|Q59Y   97 CCCCCCCCCCRDL  109 (133)
+Confidence            3444444444443
+
+
+No 5
+>tr|A0A0N5AL96|A0A0N5AL96_9BILA Uncharacterized protein OS=Syphacia muris PE=4 SV=1
+Probab=94.37  E-value=0.021  Score=37.02  Aligned_cols=13  Identities=85%  Similarity=3.219  Sum_probs=8.4  Template_Neff=1.000
+
+Q 2FLGA             1 CCCCCCEECCCCC   13 (48)
+Q Consensus         1 cccccceeccccc   13 (48)
+                      |+++|||.|||||
+T Consensus         5 ccccccgsccccc   17 (60)
+T tr|A0A0N5AL96|    5 CCCCCCGSCCCCC   17 (60)
+Confidence            4566777776654
+
+
+No 6
+>tr|U6N1I8|U6N1I8_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00042130 PE=4 SV=1
+Probab=94.26  E-value=0.024  Score=46.14  Aligned_cols=21  Identities=76%  Similarity=2.878  Sum_probs=8.6  Template_Neff=1.000
+
+Q 2FLGA             5 CCEECCCC-CCCCCCEEECCCC   25 (48)
+Q Consensus         5 cceecccc-cccccceeecccc   25 (48)
+                      ||..|||| ||||||-..|+||
+T Consensus       360 ccssccccscccccccsscccc  381 (396)
+T tr|U6N1I8|U6N1  360 CCSSCCCCSCCCCCCCSSCCCC  381 (396)
+Confidence            34444443 3333333444443
+
+
+No 7
+>tr|T1E9M4|T1E9M4_ANOAQ Putative secreted protein (Fragment) OS=Anopheles aquasalis PE=2 SV=1
+Probab=93.74  E-value=0.041  Score=37.07  Aligned_cols=17  Identities=88%  Similarity=3.236  Sum_probs=9.1  Template_Neff=1.000
+
+Q 2FLGA             2 CCCCCEECCCCCCCCCC   18 (48)
+Q Consensus         2 ccccceecccccccccc   18 (48)
+                      ++|||--||||||||||
+T Consensus         7 cccccywcccccccccc   23 (77)
+T tr|T1E9M4|T1E9    7 CCCCCYWCCCCCCCCCC   23 (77)
+Confidence            45555555555555443
+
+
+No 8
+>tr|U6MSM7|U6MSM7_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00076000 PE=4 SV=1
+Probab=93.64  E-value=0.045  Score=42.06  Aligned_cols=8  Identities=63%  Similarity=2.116  Sum_probs=2.9  Template_Neff=1.000
+
+Q 2FLGA            14 CCCCCEEE   21 (48)
+Q Consensus        14 ccccceee   21 (48)
+                      |||||--.
+T Consensus       205 cccccwyr  212 (219)
+T tr|U6MSM7|U6MS  205 CCCCCWYR  212 (219)
+Confidence            33333333
+
+
+No 9
+>tr|A0A0L8H5W0|A0A0L8H5W0_OCTBM Uncharacterized protein (Fragment) OS=Octopus bimaculoides GN=OCBIM_22021995mg PE=4 SV=1
+Probab=93.47  E-value=0.053  Score=42.48  Aligned_cols=10  Identities=100%  Similarity=3.822  Sum_probs=4.0  Template_Neff=1.000
+
+Q 2FLGA             9 CCCCCCCCCC   18 (48)
+Q Consensus         9 cccccccccc   18 (48)
+                      ||||||||||
+T Consensus       113 cccccccccc  122 (259)
+T tr|A0A0L8H5W0|  113 CCCCCCCCCC  122 (259)
+Confidence            3333444444
+
+
+No 10
+>tr|U6ML81|U6ML81_9EIME DNA replication licensing factor, putative OS=Eimeria necatrix GN=ENH_00035960 PE=3 SV=1
+Probab=92.97  E-value=0.079  Score=41.34  Aligned_cols=16  Identities=81%  Similarity=3.005  Sum_probs=10.8  Template_Neff=1.000
+
+Q 2FLGA             9 CCCCCCCCCCEEECCC   24 (48)
+Q Consensus         9 cccccccccceeeccc   24 (48)
+                      ||||||||||+-.|+|
+T Consensus       111 ccccccccccgwsccc  126 (245)
+T tr|U6ML81|U6ML  111 CCCCCCCCCCGWSCCC  126 (245)
+Confidence            5566667777777764
+
+
+No 11
+>tr|M2YXJ5|M2YXJ5_PSEFD Uncharacterized protein (Fragment) OS=Pseudocercospora fijiensis (strain CIRAD86) GN=MYCFIDRAFT_154933 PE=4 SV=1
+Probab=92.89  E-value=0.083  Score=37.31  Aligned_cols=13  Identities=92%  Similarity=3.337  Sum_probs=7.6  Template_Neff=1.000
+
+Q 2FLGA             6 CEECCCCCCCCCC   18 (48)
+Q Consensus         6 ceecccccccccc   18 (48)
+                      |+.||||||||||
+T Consensus        73 cercccccccccc   85 (106)
+T tr|M2YXJ5|M2YX   73 CERCCCCCCCCCC   85 (106)
+Confidence            4666666655554
+
+
+No 12
+>tr|U6MVW0|U6MVW0_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00011390 PE=4 SV=1
+Probab=91.95  E-value=0.15  Score=41.23  Aligned_cols=14  Identities=79%  Similarity=2.973  Sum_probs=6.4  Template_Neff=1.000
+
+Q 2FLGA             9 CCCCCCCCCCEEEC   22 (48)
+Q Consensus         9 cccccccccceeec   22 (48)
+                      ||||||||||-..|
+T Consensus       264 ccccccccccvsrc  277 (337)
+T tr|U6MVW0|U6MV  264 CCCCCCCCCCVSRC  277 (337)
+Confidence            34444445554433
+
+
+No 13
+>tr|U6MQ24|U6MQ24_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00001920 PE=4 SV=1
+Probab=91.61  E-value=0.18  Score=41.24  Aligned_cols=6  Identities=83%  Similarity=3.197  Sum_probs=2.4  Template_Neff=1.000
+
+Q 2FLGA             2 CCCCCE    7 (48)
+Q Consensus         2 ccccce    7 (48)
+                      |||||.
+T Consensus       278 cccccs  283 (374)
+T tr|U6MQ24|U6MQ  278 CCCCCS  283 (374)
+Confidence            344443
+
+
+No 14
+>tr|W5GPE8|W5GPE8_WHEAT Uncharacterized protein OS=Triticum aestivum PE=4 SV=1
+Probab=91.52  E-value=0.19  Score=33.34  Aligned_cols=8  Identities=88%  Similarity=3.362  Sum_probs=3.1  Template_Neff=1.000
+
+Q 2FLGA            12 CCCCCCCE   19 (48)
+Q Consensus        12 ccccccce   19 (48)
+                      |||||||.
+T Consensus        56 cccccccr   63 (66)
+T tr|W5GPE8|W5GP   56 CCCCCCCR   63 (66)
+Confidence            33334443
+
+
+No 15
+>tr|U6N487|U6N487_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00057640 PE=4 SV=1
+Probab=91.41  E-value=0.2  Score=40.75  Aligned_cols=21  Identities=71%  Similarity=2.503  Sum_probs=12.0  Template_Neff=1.000
+
+Q 2FLGA             6 CEECCCCCCCCCCEEECCCCE   26 (48)
+Q Consensus         6 ceecccccccccceeecccce   26 (48)
+                      |-.||||||||||---|+||-
+T Consensus       210 ccsccccccccccficccccm  230 (351)
+T tr|U6N487|U6N4  210 CCSCCCCCCCCCCFICCCCCM  230 (351)
+Confidence            335566666666665555553
+
+
+No 16
+>tr|U6MFA9|U6MFA9_9EIME Proliferating cell nuclear antigen, putative OS=Eimeria necatrix GN=ENH_00029390 PE=4 SV=1
+Probab=90.64  E-value=0.29  Score=40.76  Aligned_cols=7  Identities=71%  Similarity=2.608  Sum_probs=2.8  Template_Neff=1.000
+
+Q 2FLGA             4 CCCEECC   10 (48)
+Q Consensus         4 ccceecc   10 (48)
+                      |||.-||
+T Consensus        46 cccrccc   52 (433)
+T tr|U6MFA9|U6MF   46 CCCRCCC   52 (433)
+Confidence            4444333
+
+
+No 17
+>tr|A0A0C3AYG9|A0A0C3AYG9_9HOMO Uncharacterized protein OS=Serendipita vermifera MAFF 305830 GN=M408DRAFT_11054 PE=4 SV=1
+Probab=89.88  E-value=0.39  Score=35.37  Aligned_cols=17  Identities=71%  Similarity=2.871  Sum_probs=12.8  Template_Neff=1.000
+
+Q 2FLGA             8 ECCCCCCCCCCEEECCC   24 (48)
+Q Consensus         8 ecccccccccceeeccc   24 (48)
+                      .||||||||||..+|+-
+T Consensus         5 dccccccccccdddccg   21 (137)
+T tr|A0A0C3AYG9|    5 DCCCCCCCCCCDDDCCG   21 (137)
+Confidence            47788888888887763
+
+
+No 18
+>tr|U6N621|U6N621_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00067280 PE=4 SV=1
+Probab=89.21  E-value=0.49  Score=40.79  Aligned_cols=9  Identities=78%  Similarity=2.878  Sum_probs=3.6  Template_Neff=1.000
+
+Q 2FLGA             4 CCCEECCCC   12 (48)
+Q Consensus         4 ccceecccc   12 (48)
+                      |||.-||||
+T Consensus       498 cccrccccc  506 (614)
+T tr|U6N621|U6N6  498 CCCRCCCCC  506 (614)
+Confidence            444433333
+
+
+No 19
+>tr|Q6IL67|Q6IL67_DROME HDC10243 OS=Drosophila melanogaster GN=HDC10243 PE=4 SV=1
+Probab=88.69  E-value=0.58  Score=34.94  Aligned_cols=16  Identities=81%  Similarity=2.998  Sum_probs=8.2  Template_Neff=1.000
+
+Q 2FLGA            10 CCCCCCCCCEEECCCC   25 (48)
+Q Consensus        10 ccccccccceeecccc   25 (48)
+                      |||||||||--.|+||
+T Consensus       124 ccccccccciyscccc  139 (150)
+T tr|Q6IL67|Q6IL  124 CCCCCCCCCIYSCCCC  139 (150)
+Confidence            3444555555555543
+
+
+No 20
+>tr|A0A0K0D7U2|A0A0K0D7U2_ANGCA Uncharacterized protein OS=Angiostrongylus cantonensis PE=4 SV=1
+Probab=88.49  E-value=0.61  Score=33.74  Aligned_cols=16  Identities=81%  Similarity=2.969  Sum_probs=10.9  Template_Neff=1.000
+
+Q 2FLGA             4 CCCEECCCCCCCCCCE   19 (48)
+Q Consensus         4 ccceecccccccccce   19 (48)
+                      |||--||||||||||.
+T Consensus        62 cccwycccccccccch   77 (117)
+T tr|A0A0K0D7U2|   62 CCCWYCCCCCCCCCCH   77 (117)
+Confidence            5667777777776664
+
+
+No 21
+>tr|U6MDH4|U6MDH4_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00011030 PE=4 SV=1
+Probab=88.25  E-value=0.66  Score=37.31  Aligned_cols=9  Identities=100%  Similarity=3.822  Sum_probs=3.7  Template_Neff=1.000
+
+Q 2FLGA            10 CCCCCCCCC   18 (48)
+Q Consensus        10 ccccccccc   18 (48)
+                      |||||||||
+T Consensus        53 ccccccccc   61 (287)
+T tr|U6MDH4|U6MD   53 CCCCCCCCC   61 (287)
+Confidence            333444444
+
+
+No 22
+>tr|U6N2D0|U6N2D0_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00060320 PE=4 SV=1
+Probab=88.16  E-value=0.67  Score=36.52  Aligned_cols=10  Identities=60%  Similarity=2.158  Sum_probs=4.5  Template_Neff=1.000
+
+Q 2FLGA            30 EECCCEECCC   39 (48)
+Q Consensus        30 eeccceeccc   39 (48)
+                      .-|||-.|||
+T Consensus       202 qlccccaccc  211 (238)
+T tr|U6N2D0|U6N2  202 QLCCCCACCC  211 (238)
+Confidence            3444444444
+
+
+No 23
+>tr|H3FES6|H3FES6_PRIPA Uncharacterized protein OS=Pristionchus pacificus GN=WBGene00110311 PE=4 SV=1
+Probab=85.43  E-value=1.3  Score=35.18  Aligned_cols=23  Identities=70%  Similarity=2.469  Sum_probs=14.3  Template_Neff=1.000
+
+Q 2FLGA             3 CCCCEECCCCCCCCCCEEECCCC   25 (48)
+Q Consensus         3 cccceecccccccccceeecccc   25 (48)
+                      +|||-.|||||-||||+-.|-||
+T Consensus        66 cccccpcccccpccccgcgcgcc   88 (244)
+T tr|H3FES6|H3FE   66 CCCCCPCCCCCPCCCCGCGCGCC   88 (244)
+Confidence            45555677777677776665544
+
+
+No 24
+>tr|A8Q021|A8Q021_BRUMA Putative uncharacterized protein OS=Brugia malayi GN=Bm1_39090 PE=4 SV=1
+Probab=85.16  E-value=1.4  Score=32.34  Aligned_cols=12  Identities=83%  Similarity=3.036  Sum_probs=5.1  Template_Neff=1.000
+
+Q 2FLGA             5 CCEECCCCCCCC   16 (48)
+Q Consensus         5 cceecccccccc   16 (48)
+                      ||--||||||||
+T Consensus        75 ccyycccccccc   86 (124)
+T tr|A8Q021|A8Q0   75 CCYYCCCCCCCC   86 (124)
+Confidence            444444444433
+
+
+No 25
+>tr|U6KQE6|U6KQE6_EIMTE Uncharacterized protein OS=Eimeria tenella GN=ETH_00038230 PE=4 SV=1
+Probab=84.20  E-value=1.6  Score=30.94  Aligned_cols=10  Identities=90%  Similarity=3.447  Sum_probs=4.4  Template_Neff=1.000
+
+Q 2FLGA             8 ECCCCCCCCC   17 (48)
+Q Consensus         8 eccccccccc   17 (48)
+                      .|||||||||
+T Consensus        55 sccccccccc   64 (97)
+T tr|U6KQE6|U6KQ   55 SCCCCCCCCC   64 (97)
+Confidence            3444444443
+
+
+No 26
+>tr|U6MG45|U6MG45_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00035990 PE=4 SV=1
+Probab=84.15  E-value=1.7  Score=34.39  Aligned_cols=15  Identities=80%  Similarity=3.061  Sum_probs=11.3  Template_Neff=1.000
+
+Q 2FLGA             5 CCEECCCCCCCCCCE   19 (48)
+Q Consensus         5 cceecccccccccce   19 (48)
+                      ||..||||||||||.
+T Consensus       147 ccrpccccccccccs  161 (229)
+T tr|U6MG45|U6MG  147 CCRPCCCCCCCCCCS  161 (229)
+Confidence            567788888888775
+
+
+No 27
+>tr|U6MJU1|U6MJU1_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00070380 PE=4 SV=1
+Probab=75.17  E-value=5.6  Score=32.83  Aligned_cols=19  Identities=63%  Similarity=2.352  Sum_probs=10.6  Template_Neff=1.000
+
+Q 2FLGA             6 CEECCCCCCCCCCEEECCC   24 (48)
+Q Consensus         6 ceecccccccccceeeccc   24 (48)
+                      |..|=||||||||..-|-|
+T Consensus        17 csrcwccccccccsrccfc   35 (313)
+T tr|U6MJU1|U6MJ   17 CSRCWCCCCCCCCSRCCFC   35 (313)
+Confidence            4445566666666654433
+
+
+No 28
+>tr|A0A0B8NCT9|A0A0B8NCT9_9NOCA Uncharacterized protein OS=Nocardia seriolae N-2927 GN=NS07_v2contig00021-0020 PE=4 SV=1
+Probab=68.49  E-value=10  Score=29.31  Aligned_cols=10  Identities=80%  Similarity=2.481  Sum_probs=5.2  Template_Neff=1.000
+
+Q 2FLGA            17 CCEEECCCCE   26 (48)
+Q Consensus        17 cceeecccce   26 (48)
+                      ||.+.|+|||
+T Consensus       146 ccgegcccce  155 (168)
+T tr|A0A0B8NCT9|  146 CCGEGCCCCE  155 (168)
+Confidence            4455555554
+
+
+No 29
+>tr|U6MKN0|U6MKN0_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00046930 PE=4 SV=1
+Probab=67.44  E-value=11  Score=32.67  Aligned_cols=11  Identities=91%  Similarity=3.451  Sum_probs=5.5  Template_Neff=1.000
+
+Q 2FLGA             9 CCCCCCCCCCE   19 (48)
+Q Consensus         9 cccccccccce   19 (48)
+                      ||||||||||+
+T Consensus       366 ccccccccccg  376 (486)
+T tr|U6MKN0|U6MK  366 CCCCCCCCCCG  376 (486)
+Confidence            34445555554
+
+
+No 30
+>tr|T1E2D7|T1E2D7_9DIPT Putative u88 (Fragment) OS=Psorophora albipes PE=2 SV=1
+Probab=61.18  E-value=18  Score=26.51  Aligned_cols=15  Identities=87%  Similarity=3.229  Sum_probs=6.4  Template_Neff=1.000
+
+Q 2FLGA             4 CCCEECCCCCCCCCC   18 (48)
+Q Consensus         4 ccceecccccccccc   18 (48)
+                      ++++-++++++++++
+T Consensus        15 cccgccccccccccc   29 (106)
+T tr|T1E2D7|T1E2   15 CCCGCCCCCCCCCCC   29 (106)
+Confidence            344444444444333
+
+
+No 31
+>tr|U6N621|U6N621_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00067280 PE=4 SV=1
+Probab=44.03  E-value=53  Score=29.74  Aligned_cols=8  Identities=100%  Similarity=3.822  Sum_probs=3.4  Template_Neff=1.000
+
+Q 2FLGA             9 CCCCCCCC   16 (48)
+Q Consensus         9 cccccccc   16 (48)
+                      ||||||||
+T Consensus       447 cccccccc  454 (614)
+T tr|U6N621|U6N6  447 CCCCCCCC  454 (614)
+Confidence            44444433
+
+
+No 32
+>tr|U6N376|U6N376_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00073620 PE=4 SV=1
+Probab=37.26  E-value=79  Score=27.04  Aligned_cols=6  Identities=50%  Similarity=1.940  Sum_probs=2.5  Template_Neff=1.000
+
+Q 2FLGA            20 EECCCC   25 (48)
+Q Consensus        20 eecccc   25 (48)
+                      ..|+-+
+T Consensus        51 ssccsc   56 (329)
+T tr|U6N376|U6N3   51 SSCCSC   56 (329)
+Confidence            344433
+
+
+No 33
+>tr|U6MNI5|U6MNI5_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00007200 PE=4 SV=1
+Probab=34.81  E-value=92  Score=26.97  Aligned_cols=14  Identities=71%  Similarity=2.669  Sum_probs=7.7  Template_Neff=1.000
+
+Q 2FLGA            13 CCCCCCEEECCCCE   26 (48)
+Q Consensus        13 cccccceeecccce   26 (48)
+                      ||||||..-|+||.
+T Consensus       337 ccccccsaicccct  350 (361)
+T tr|U6MNI5|U6MN  337 CCCCCCSAICCCCT  350 (361)
+Confidence            34455666666553
+
+
+No 34
+>tr|A0A0C1U6V8|A0A0C1U6V8_9CLOT Uncharacterized protein OS=Clostridium argentinense CDC 2741 GN=U732_3126 PE=4 SV=1
+Probab=28.21  E-value=1.4e+02  Score=24.08  Aligned_cols=22  Identities=64%  Similarity=2.400  Sum_probs=9.4  Template_Neff=1.000
+
+Q 2FLGA             5 CCEECCCCCCC-CCCEEECCCCE   26 (48)
+Q Consensus         5 cceeccccccc-ccceeecccce   26 (48)
+                      ||..|||-=|| |||..-|+++.
+T Consensus        78 ccdpcccdpccfcccdpcccccd  100 (184)
+T tr|A0A0C1U6V8|   78 CCDPCCCDPCCFCCCDPCCCCCD  100 (184)
+Confidence            34444443333 34444444443
+
+
+No 35
+>tr|U6MM58|U6MM58_9EIME Uncharacterized protein OS=Eimeria necatrix GN=ENH_00061550 PE=4 SV=1
+Probab=27.53  E-value=1.5e+02  Score=27.18  Aligned_cols=12  Identities=83%  Similarity=3.175  Sum_probs=7.3  Template_Neff=1.000
+
+Q 2FLGA             8 ECCCCCCCCCCE   19 (48)
+Q Consensus         8 ecccccccccce   19 (48)
+                      .||||||||||+
+T Consensus       310 rccccccccccg  321 (579)
+T tr|U6MM58|U6MM  310 RCCCCCCCCCCG  321 (579)
+Confidence            456666666665
+
+
+No 36
+>tr|T1DKE6|T1DKE6_ANOAQ Putative dna repair (Fragment) OS=Anopheles aquasalis PE=2 SV=1
+Probab=24.82  E-value=1.8e+02  Score=21.24  Aligned_cols=11  Identities=91%  Similarity=3.243  Sum_probs=5.0  Template_Neff=1.000
+
+Q 2FLGA            10 CCCCCCCCCEE   20 (48)
+Q Consensus        10 cccccccccee   20 (48)
+                      ||||++|||.|
+T Consensus         9 cccccccccse   19 (85)
+T tr|T1DKE6|T1DK    9 CCCCCCCCCSE   19 (85)
+Confidence            34444455543
+
+
